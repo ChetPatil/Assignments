@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body id="body">
+    <h2 style="font-style: italic;">Admission Form</h2>
+    <form>
+        <label >Full Name:</label>
+        <div>
+            <input type="name" placeholder="First Name" name="F" id=" CandidateName" required>
+            <input type="name" placeholder="Middle Name" name="MiddleName" id="CandidateMName" required>
+            <input type="name" placeholder="Last Name" name="LastName" id="CandidateLName" required>
+        </div>
+        <br />
+        <label >Father Name :</label>
+        <div>
+            <input type="name" placeholder="First Name" name="F" id="father name" required>
+            <input type="name" placeholder="Middle Name" name="Middlename" id="father name" required>
+            <input type="name" placeholder="Last Name" name="Liddle name" id="father name" required>
+        </div>
+        <br />
+        <label >Mother Name:</label>
+        <div>
+            <input type="name" placeholder="First Name" name="Firstname" id="mother name" required>
+            <input type="name" placeholder="Middle Name" name="Middlename" id="mother name" required>
+            <input type="name" placeholder="Last Name" name="Liddle name" id="mother name" required>
+        </div>
+        <br />
+        <label >Date of Birth:</label>
+        <br />
+        <input type="date" required>
+        <br />
+        <br />
+        <label >Contact Number:</label>
+        <div>
+            <input type="text" placeholder="Enter Contact Number" id="Phonenumber" maxlength="10" pattern="[6-9]{1}[0-9]{9}" required>
+        </div>
+        <br />
+        <label>Email:</label>
+        <div>
+            <input type="email" placeholder="Enter Email-Id" pattern=".+@gmail\.com" required>
+        </div>
+        <br />
+        <label for="address">Address</label>
+        <div>
+            <input type="text" placeholder="House Number" required>
+            <input type="text" placeholder="Area" name="area" id="AreaName" required>
+            <br/>
+            <input type="text" placeholder="Landmark" name="Landmark" id="Landmark" maxlength="20" size="45" required>
+            <br/>
+            <input type="number" placeholder="Pincode" maxlength="6" required>
+            <input type="text" placeholder="Enter City" maxlength="20" required>
+            <br/>
+            <input type="text" placeholder="Enter State" maxlength="20" required>
+        </div>
+        <input type="Submit">
+        <input type="reset">
+    </form>
+</body>
+</html>

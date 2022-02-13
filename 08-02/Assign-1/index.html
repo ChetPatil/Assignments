@@ -1,0 +1,65 @@
+<html>
+
+<head>
+</head>
+
+<body>
+    <form action="">
+        <h1 >Application Form For Geekster</h1>
+        <br>
+        <br>
+        Full Name *<br>
+        <input type="text" placeholder="Full name" required pattern="[A-za-z]+" >
+        <br>
+        Email * <br>
+        <input type="email" placeholder="Enter email" required pattern=".+@gmail\.com" >
+        <br>
+        Phone * <br>
+        <input type="text" placeholder="Enter mobile number" required pattern="[6-9]{1}[0-9]{9}">
+        <br>
+        Highest Degree* <br>
+        <select name="degree">
+            <option selected disabled>Select your Highest Qualification</option>
+            <option value="1">BE or B.Tech CS/IT</option>
+            <option value="2">BE or B.Tech Others</option>
+            <option value="3">MS or M.Tech CS/IT</option>
+            <option value="4">MS or M.Tech Others</option>
+            <option value="5">BCA</option>
+            <option value="6">MCA</option>
+            <option value="7">Others</option>
+        </select>
+        <br>
+        Completion Year * 
+        <br>
+        <select name="YearOfPassing">
+            <option selected disabled>Select Year Of Passing</option>
+            <option value="1">2017</option>
+            <option value="2">2018</option>
+            <option value="3">2019</option>
+            <option value="4">2020</option>
+            <option value="4">2021</option>
+            <option value="5">2022</option>
+            <option value="6">2023</option>
+        </select>
+        <br>
+        Programming Skills * 
+        <br>
+        <select name="skillsOfStudent" required>
+            <option selected disabled>Select Programming Skill</option>
+            <option value="1">No coding skills</option>
+            <option value="2">Basic coding skills</option>
+            <option value="3">Intermidate coding skills</option>
+            <option value="4">Excelent coding skills</option>
+        </select>
+        <br>
+        <input type="checkbox" name="check" value="1"> By signing up, you are agreeing
+        to the Terms and Conditions of Geekster *.
+        <br>
+        <br>
+        <br>
+        <input type="submit" name="Submit">
+        <input type="reset">
+    </form>
+</body>
+
+</html>
